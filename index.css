@@ -1,0 +1,48 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    
+}
+
+#mobile-no, #email {
+    width: 30em;
+}
+
+.col {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 12px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  #register {
+    background-color: blue;
+    color: white
+  }
+
+  #first-name, #last-name, #password, #confirm-password {
+    padding: 15px 62px;
+    border-radius: 5px;
+    border-style: double;
+  }
